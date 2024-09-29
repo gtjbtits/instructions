@@ -1,1 +1,3 @@
-# instructions
+# How to...
+
+1. Run a Flask app on IIS
