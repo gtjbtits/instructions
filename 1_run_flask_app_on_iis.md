@@ -78,7 +78,7 @@ You don't need to change anything on `Features` tab, so just skip it by hitting 
         * **NOTE:** It's recomended to use `Application Pool Identity` instead, but it required additional permission settings. If you find the way how it can be done, feel free to complete this guide
 6. Adjust `FastCGI Settings` on server level  
 ![FastCGI Settings](https://raw.githubusercontent.com/gtjbtits/instructions/master/assets/1/pics/12.png)  
-    1. Open FastCGI properties and go to `Environment variables`. Click on tree dots near by *(Collection)*:  
+    1. Open `FastCGI Settings` and go to `Environment variables`. Click on tree dots near by *(Collection)*:  
     ![FastCGI Properties](https://raw.githubusercontent.com/gtjbtits/instructions/master/assets/1/pics/13.png)  
     2. Create at least two nessesary environment variables:  
     ![FastCGI Properties](https://raw.githubusercontent.com/gtjbtits/instructions/master/assets/1/pics/21.png)  
