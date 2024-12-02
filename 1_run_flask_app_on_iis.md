@@ -113,7 +113,7 @@ You don't need to change anything on `Features` tab, so just skip it by hitting 
     1. 500.0 error. Used `Identity` (C 5.3) in the `Application pool` hasn't access to `Physical path` (C 3):  
     ![500.0 error](https://raw.githubusercontent.com/gtjbtits/instructions/master/assets/1/pics/18.png)  
     **SOLUTION:** Be sure that the selected `Identity` or user has right access to folder with your Flask app. It also may be solved by choosing `LocalSystem` as a application pool identity
-    2. 500 WSGI_HANDLER Python error with message: `AttributeError: module 'app' has no attribute 'py'`:  
+    2. 500 WSGI_HANDLER Python error with message: `AttributeError: module '<X>' has no attribute '<Y>'`:  
     ![500 WSGI_HANDLER error](https://raw.githubusercontent.com/gtjbtits/instructions/master/assets/1/pics/19.png)  
     **SOLUTION:** Check `WSGI_HANDLER` environment variable value (C 6.2)
 
