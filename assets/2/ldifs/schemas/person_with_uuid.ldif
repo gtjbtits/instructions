@@ -1,0 +1,15 @@
+dn: cn=personWithUUID,cn=schema,cn=config
+objectClass: olcSchemaConfig
+cn: personWithUUID
+olcAttributeTypes: ( 1.3.6.1.4.1.96961122.1.1.1 
+  NAME 'extuuid'
+  DESC 'Same as ObjectUUID in Active Directory'
+  EQUALITY caseIgnoreMatch
+  SYNTAX 1.3.6.1.4.1.1466.115.121.1.15{36}
+  SINGLE-VALUE )
+olcObjectClasses: ( 1.3.6.1.4.1.96961122.2.1.1
+  NAME 'personWithUUID'
+  DESC 'A person representation with UUID field'
+  SUP top
+  AUXILIARY
+  MUST ( extuuid ) )

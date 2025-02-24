@@ -1,0 +1,16 @@
+dn: ou=people,dc=book,dc=org
+ou: people
+description: All peopple of phonebook
+objectclass: organizationalunit
+
+dn: cn=test,ou=people,dc=book,dc=org
+objectclass: inetOrgPerson
+objectclass: personWithUUID
+cn: test
+sn: Test
+uid: test
+extuuid: 10afe5c0-7d57-4f3f-9617-4bbeadf986d3
+userpassword: test
+mail: test@test.test
+description: Person for testing
+ou: people

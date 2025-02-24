@@ -1,0 +1,16 @@
+dn: cn=config
+changetype: modify
+
+dn: olcDatabase={0}config,cn=config
+changetype: modify
+replace: olcRootDN
+olcRootDN: cn=admin,cn=config
+
+dn: olcDatabase={0}config,cn=config
+changetype: modify
+replace: olcRootPW
+olcRootPW: {MD5}your password here
+
+dn: olcDatabase={0}config,cn=config
+changetype: modify
+delete: olcAccess

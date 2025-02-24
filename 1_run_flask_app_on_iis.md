@@ -4,6 +4,7 @@ Based on [this](https://github.com/JeevanSandhu/Documentation/blob/master/Flask%
 
 ## Table of contents
 
+* [Preamble](#Preamble)
 * [Pre-requirements](#Pre-requirements)
 * [Tested on](#tested_on)
 * [Step by step guide](#step_by_step_guide)
@@ -12,6 +13,10 @@ Based on [this](https://github.com/JeevanSandhu/Documentation/blob/master/Flask%
     * [C. IIS Configuration](#iis_configuration)
     * [D. Test Flask app](#test)
 * [Troubleshooting](#troubleshooting)
+
+## Preamble
+
+If you having issues with downloading materials used in this instruction, check the `assets` folder. I tried to save everything that I use in there.
 
 ## Pre-requirements
 
