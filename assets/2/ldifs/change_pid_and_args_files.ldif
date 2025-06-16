@@ -1,0 +1,10 @@
+# Use this LDIF-file if you forgot to change pidfile during the initial configuration
+dn: cn=config
+changetype: modify
+replace: olcPidFile
+olcPidFile: /usr/local/var/run/slapd/slapd.pid
+
+dn: cn=config
+changetype: modify
+replace: olcArgsFile
+olcArgsFile: /usr/local/var/run/slapd/slapd.args

@@ -4,10 +4,10 @@ After=network.target
 
 [Service]
 Type=simple
-User=root
-Group=root
+User=openldap
+Group=openldap
 ExecStart=/usr/local/libexec/slapd -F /usr/local/etc/slapd.d
-PIDFile=/usr/local/var/run/slapd.pid
+PIDFile=/usr/local/var/run/slapd/slapd.pid
 Restart=on-failure
 
 [Install]
